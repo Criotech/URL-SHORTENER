@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.App {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* nav */
+nav {
+  text-align: center;
+}
+
+nav h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #0b1c56;
+}
+
+/* main */
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+main div {
+  background-color: #f3f8ff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+main h3 {
+  font-size: 1rem;
+  color: #0b1c56;
+}
+
+a {
+  color: #0b1c56
+}
+
+main form {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+main form input {
+  border-radius: 4px;
+  padding-left: 12px;
+  width: 100%;
+  border: 1px solid #0b1c56;
+}
+
+main button {
+  background-color: #0b1c56;
+  color: white;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 4px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+/* table */
+
+caption {
+  font-size: 1rem;
+  color: #0b1c56;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+table {
+  margin-bottom: 24px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 30%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 15%;
+}
+
+thead th:nth-child(5) {
+  width: 10%;
+}
+
+thead tr {
+  background-color: #f3f8ff;
+}
+
+thead th {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+tbody td {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #0b1c56;
+  font-size: 0.8rem;
+}
+
+th,
+td {
+  padding: 20px;
+  padding-left: 0;
+}
+
+th {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+table button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+  padding: 4px;
+  background-color: unset;
+  border: 1px solid #0b1c56;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.6rem;
+}
